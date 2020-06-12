@@ -1,6 +1,7 @@
 module workshop {
 	requires javafx.controls;
 	requires javafx.fxml;
+	requires java.sql;
 	
 	opens gui;
 	exports gui to javafx.fxml;
